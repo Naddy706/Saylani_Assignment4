@@ -1,0 +1,271 @@
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	}
+	.logo{
+		
+		margin-left:3%;
+		margin-top:2%;
+	}
+
+#sec{
+	border:0px solid black;
+	width:100%;
+	height:10%;
+}
+.container-fluid ul li{
+	transition:background-color 0.6s;
+	font-size:17px;
+}
+.container-fluid ul li:hover{
+	border-radius:3px;
+	background-color:orange;
+}
+a{
+	text-decoration:none;
+}
+
+#section{
+	background-color:white;
+	border:0px solid black;
+	width:100%;
+	height:auto;
+}
+#section2{
+	background-color:white;
+	border:0px solid black;
+	width:100%;
+	height:auto;
+}
+#section3{
+	background-image:url("1.jpg");
+	background-size:100% 100%;
+	background-color:#3a3a3a;
+	border:0px solid black;
+	width:100%;
+	height:auto;
+}
+#footer{
+	background-color:black;
+	border:1px solid black;
+	width:100%;
+	height:7%;
+}
+.fttxt{
+	margin-top:2%;
+	margin-left:1%;
+	padding:20px;
+}
+.shipping{
+	font-size:25px;
+	color:white;
+}
+.hours{
+	font-size:25px;
+	
+	color:white;
+}
+.offers{
+	font-size:25px;
+	color:white;
+}
+.line{
+	border-bottom:1px solid black;
+	border-color:white;
+	margin-top:2%;
+	
+}
+.inform li a{
+	color:white;
+	text-decoration:none;
+	
+}
+.inform li{
+	padding:2px;
+	list-style:none;
+	text-decoration:none;
+	color:white;
+}
+.inform li:hover{
+	color:#e7e7e7;
+}
+.inform li a:hover{
+	color:orange;
+}
+.subscribe{
+	border:1px solid white;
+	border-radius:3px;
+	padding:5px;
+	background-color:transparent;
+	color:white;
+	width:100%;
+	height:6%;
+}
+.subsbtn{
+	color:white;
+	border:1px solid white;
+	padding:5px;
+	background-color:black;
+	margin-top:10%;
+	font-weight:bold;
+	width:100%;
+	height:6%;
+	font-size:18px;
+	border-radius:3px;
+}
+.subsbtn:hover{
+	color:white;
+	border:0;
+	padding:5px;
+	background-color:orange;
+	margin-top:10%;
+	
+	
+}
+.ftnav{
+	float:right;
+	margin-right:2%;
+}
+.ftnav ul li{
+	
+	display:inline;
+	padding:5px;
+	color:white;
+}
+.ftnav ul li a{
+	
+	text-decoration:none;
+	color:white;
+}
+.ftnav ul li a:hover{
+	color:orange;
+}
+#footer2{
+	margin-top:1%;
+}
+.addtocartform{
+	padding:4px;
+	border-radius:3px;
+	border:1px solid black;
+	margin-bottom:1%;
+}
+#txt{
+	padding:4px;
+	border-radius:3px;
+	border:1px solid black;
+	margin-bottom:1%;
+}
+.contact{
+margin-bottom:2%;
+margin-top:0.5%;
+width:49.4%;
+padding:7px;
+border-radius:3px;
+border:2px solid orange;
+}
+#txtcomment{
+margin-bottom:3%;
+margin-top:0.5%;
+padding:7px;
+width:100%;
+border-radius:3px;
+border:2px solid orange;
+}
+#name{
+margin-bottom:2%;
+margin-top:0.5%;
+padding:7px;
+width:48.5%;
+border-radius:3px;
+border:2px solid orange;
+}
+#lname{
+	float:right;
+margin-bottom:2%;
+margin-top:0.5%;
+padding:7px;
+width:48.5%;
+border-radius:3px;
+border:2px solid orange;
+}
+#cemail{
+margin-bottom:2%;
+margin-top:0.5%;
+padding:7px;
+width:100%;
+border-radius:3px;
+border:2px solid orange;
+}
+#subj{
+margin-bottom:2%;
+margin-top:0.5%;
+padding:7px;
+width:100%;
+border-radius:3px;
+border:2px solid orange;
+}
+.cbtn{
+border:0px solid black;
+border-radius:1px; 
+background-color:orange;
+color:white;
+padding:5px;
+width:30%;
+height:7%;
+font-size:20px;
+transition:background-color 0.6s;
+
+}
+.cbtn:hover{
+background-color:#5FFF74;
+color:white;
+}
+.s1{
+	border-radius:5px;
+	height:35px;
+	weight:30px;
+}
+.s2{
+	border-radius:6px;
+	height:35px;
+	weight:30px;
+}
+.s3{
+	height:35px;
+	weight:30px;
+}
+.s4{
+	height:35px;
+	weight:30px;
+}
+
+option select:hover{
+	background-color:#1290af;
+	color:white;
+}
+.addcart{
+	margin-top:3%; 
+	width:40%;
+	height:6.5%;
+	background-color:#636;
+	border:0; 
+	color:white; 
+	border-radius:5px;
+	font-size:18px;
+}
+.addcart:hover{
+	background-color:#4a254a;
+}
+table tr td{
+	border:1px solid #d9d9d9;;
+	padding:7px;
+}
+.proimg img{
+	padding:5px;
+	border:1px solid #d9d9d9;
+}
+img:hover{
+	cursor:hand;
+}

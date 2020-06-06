@@ -1,0 +1,457 @@
+<!DOCTYPE >
+<html>
+<head>
+<title>Toyo Toys</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="Js/jquery.min.js"></script>
+<script src="Js/bootstrap.min.js"></script>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link href="css/hover.css" rel="stylesheet">
+<link href="css/slider.css" type="text/css" rel="stylesheet">
+<link rel="icon" href="favicon.ico" type="icon">
+<script type="text/javascript" src="sliderengine/jquery.js"></script><script type="text/javascript" src="sliderengine/jquery.hislider.js"></script>
+<script src="compare.js"></script>
+<link rel="stylesheet" href="css/compare.css">
+</head>
+<body style="background-color:#dddddd;">
+<div id="header">
+
+<div class="row">
+  <div class="col-sm-6">
+  <br>
+  <a href="index.html"><img src="2ndlogo.jpg" class="logo" style="margin-top:3%;"></a>
+  </div>
+  <div class="col-sm-6">
+
+<br><br><br>
+ <div class="social--icons" style="float:right;" align="right">
+  <a href="https://www.facebook.com/profile.php?id=100004946942170"><img src="icons/sg1.png" style="margin-top:10%" onmouseover="this.src='icons/s1.png'" onmouseout="this.src='icons/sg1.png'" class="s1"/></a>
+ <a href="https://twitter.com/shakirali00715"><img src="icons/sg2.png" style="margin-top:10%" onmouseover="this.src='icons/s2.png'" onmouseout="this.src='icons/sg2.png'" class="s2"/></a>
+ <a href="https://gmail.com"><img src="icons/sg3.png" style="margin-top:10%" onmouseover="this.src='icons/s3.png'" onmouseout="this.src='icons/sg3.png'" class="s3"/></a>
+ <a href="https://www.instagram.com/shakir_ali00/"><img src="icons/sg4.png" style="margin-top:10%" onmouseover="this.src='icons/s4.png'" onmouseout="this.src='icons/sg4.png'" class="s4"/></a>
+  </div>
+  </div>
+</div>
+
+</div>
+<nav class="navbar navbar-inverse" style="margin-top:1%;background-color:#e7e7e7;border:0;">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      
+	  <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Brands<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="hotwheels.html">Hot Wheels</a>
+
+          </li>
+                     <li><a href="teddyherman.html">Teddy Herman</a>
+                     <li><a href="mattel.html">Mattel</a>
+          
+        </ul>
+      </li>
+      <li ><a href="age.html">Age</a></li>
+      <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="electronics.html">Electronics</a></li>
+
+
+          <li><a href="dolls.html">Dolls</a></li>
+          <li><a href="softtoys.html">Soft Toys</a></li>
+          <li><a href="action.html">Action Figures</a></li>
+		  <li><a href="product.html">All Products</a></li>
+        </ul>
+      </li>
+   <li class="active"><a href="Compare.html">Compare</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+	  <li><a href="about.html">About Us</a></li>
+	   
+    </ul>
+	<div class="searchbar" style="float:right">
+	<form class="navbar-form navbar-left">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <img src="icons/11.png" width="20px" height="20px">
+          </button>
+        </div>
+      </div>
+    </form>
+</div>
+  </div>
+</nav>
+<div class="row" style="margin-top:2%;">
+  <div class="col-sm-4" style="border-right:1px solid #cccac0;"> <span style="margin-left:30%;"><img src="icons/1.png" style="margin-right:2%;">30-days returns</span> </div>
+  <div class="col-sm-4" style="border-right:1px solid #cccac0;"> <span style="margin-left:30%;"><img src="icons/2.png" style="margin-right:2%;">fast delivery</span> </div>
+  <div class="col-sm-4"> <span style="margin-left:25%;"><img src="icons/3.png" style="margin-right:2%;">24/7 customer support</span> </div>
+</div>
+
+<div style="clear:both;height:20px;width:100%"></div>
+        <div id='hislider1' style=" max-width:90%;  max-height:450px;height:100%; margin: 0 auto;">
+        </div>
+		<br>
+		
+		<section align="center">
+       	  <div class="compare-container">
+            	<div class="drop-menu">
+                	<label>
+                		<select id="option_1">
+                      <option>----------------Select Product--------------------</option>
+                      <option disabled>--------------------------------------</option>
+                <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cars & Jeep</option>
+                          <option disabled>--------------------------------------</option>
+                           <option>Race Car</option>
+                          <option>Designed Car</option>
+                          <option>Hot Car</option>
+                          <option>Lamborgni Car</option>
+                          <option>Classic Car</option>
+                          <option>Blue Car</option>
+                          <option>Stylish Jeep</option>
+                          <option>Blue Jeep</option>
+                          <option>New Model Jeep</option>
+                          <option>Police Jeep</option>
+                          <option>New Stylish Jeep</option>
+                          <option>Shining Jeep</option>
+                        
+                          <option disabled>--------------------------------------</option>
+                          <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dolls</option>
+                          <option disabled>--------------------------------------</option>
+                          <option>Barbie Doll</option>
+                          <option>New Collection Doll</option>
+                          <option>Glasses Doll</option>
+                          <option>New Barbie Doll</option>
+                          <option>Mini Dolls</option>
+                          <option>Group Doll</option>
+                          <option disabled>--------------------------------------</option>
+                          
+                          <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Soft Toys</option>
+                          <option disabled>--------------------------------------</option>
+                          <option>Cute Teddy Bear</option>
+                          <option>Cute Teddy Bear 2</option>
+                          <option>Cute Teddy Bear 3</option>
+                          <option>Cute Teddy Bear 4</option>
+                          <option>Cute Teddy Bear 5</option>
+                          <option>Cute Teddy Bear 6</option>
+                          <option>Panda</option>
+                          
+ 
+                          <option disabled>--------------------------------------</option>
+                          <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remote Control</option>
+                          <option disabled>--------------------------------------</option>
+                          <option>Chootu Rebort</option>
+                          <option>Dog Rebort</option>
+                          <option>Cat Rebort</option>
+                          <option>New Rebort</option>
+                          <option>Andriod Rebort</option>
+                          <option>Iron Rebort</option>
+                          <option>Remote Control Car White</option>
+                          <option>Remote Control Car Yellow</option>
+                          <option>Remote Control Car Adidas</option>
+                          <option>Remote Control Car Red</option>
+                          <option>Remote Control Car Black</option>
+                          <option>Remote Control Car Designend</option>
+                          
+                            <option disabled>--------------------------------------</option>
+                            
+                            <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 Months old</option>
+                            <option disabled>--------------------------------------</option>
+                            <option>Sleeping Bed</option>
+                            <option>Box Game</option>
+                            <option>New Game</option>
+                            <option>Toy Family</option>
+                            <option>Cow Toy</option>
+                            <option>Jhinh jhing</option>
+
+                            <option disabled>--------------------------------------</option>
+                          
+                            <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Years old</option>
+                            <option disabled>--------------------------------------</option>
+                            <option>Kids train</option>
+                            <option>Home Vehicle</option>
+                            <option>Home Game</option>
+                            <option>Kids Carte</option>
+                            <option>Walker</option>
+                            <option>Home Blocks</option>
+
+                            <option disabled>--------------------------------------</option>
+                          
+                            <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 Years old</option>
+                            <option disabled>--------------------------------------</option>
+                            <option>Kids Train Big</option>
+                            <option>Hand Holder</option>
+                            <option>Hammer Game</option>
+                            <option>Soccer Game</option>
+                            <option>Home Alphabets</option>
+                            <option>Dog Home</option>
+
+                            <option disabled>--------------------------------------</option>
+                          
+                            <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 Years Old</option>
+                            <option disabled>--------------------------------------</option>
+                            <option>Jumping Pade</option>
+                            <option>Automatic Car</option>
+                            <option>Small Vehicles</option>
+                            <option>Titanic Ship</option>
+                            <option>Charging Bike</option>
+                            <option>Blocks</option>
+
+                            <option disabled>--------------------------------------</option>
+                          
+                            <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 Years old</option>
+                            <option disabled>--------------------------------------</option>
+                            <option>Sand Truck</option>
+                            <option>Big Rebort</option>
+                            <option>Bicycle</option>
+                            <option>Batmen Car</option>
+                            <option>Small Bicycle</option>
+                            <option>Cultivation Truck</option>
+                        
+                            
+                    	</select>
+                     </label>
+                     <input type="button" value="Compare" onClick="compare()" style="margin-bottom:2%;margin-top:0.5%;">                     
+                     <label>
+                		<select id="option_2">
+                      <option>----------------Select Product--------------------</option>
+                      <option disabled>--------------------------------------</option>
+                <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cars & Jeep</option>
+                          <option disabled>--------------------------------------</option>
+                           <option>Race Car</option>
+                          <option>Designed Car</option>
+                          <option>Hot Car</option>
+                          <option>Lamborgni Car</option>
+                          <option>Classic Car</option>
+                          <option>Blue Car</option>
+                          <option>Stylish Jeep</option>
+                          <option>Blue Jeep</option>
+                          <option>New Model Jeep</option>
+                          <option>Police Jeep</option>
+                          <option>New Stylish Jeep</option>
+                          <option>Shining Jeep</option>
+                        
+                          <option disabled>--------------------------------------</option>
+                          <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dolls</option>
+                          <option disabled>--------------------------------------</option>
+                          <option>Barbie Doll</option>
+                          <option>New Collection Doll</option>
+                          <option>Glasses Doll</option>
+                          <option>New Barbie Doll</option>
+                          <option>Mini Dolls</option>
+                          <option>Group Doll</option>
+                          <option disabled>--------------------------------------</option>
+                          
+                          <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Soft Toys</option>
+                          <option disabled>--------------------------------------</option>
+                          <option>Cute Teddy Bear</option>
+                          <option>Cute Teddy Bear 2</option>
+                          <option>Cute Teddy Bear 3</option>
+                          <option>Cute Teddy Bear 4</option>
+                          <option>Cute Teddy Bear 5</option>
+                          <option>Cute Teddy Bear 6</option>
+                          <option>Panda</option>
+                          
+
+                        
+                            
+                          <option disabled>--------------------------------------</option>
+                          <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remote Control</option>
+                          <option disabled>--------------------------------------</option>
+                          <option>Chootu Rebort</option>
+                          <option>Dog Rebort</option>
+                          <option>Cat Rebort</option>
+                          <option>New Rebort</option>
+                          <option>Andriod Rebort</option>
+                          <option>Iron Rebort</option>
+                          <option>Remote Control Car White</option>
+                          <option>Remote Control Car Yellow</option>
+                          <option>Remote Control Car Adidas</option>
+                          <option>Remote Control Car Red</option>
+                          <option>Remote Control Car Black</option>
+                          <option>Remote Control Car Designend</option>
+                          
+                            
+                            <option disabled>--------------------------------------</option>
+                          
+                            <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 Months old</option>
+                            <option disabled>--------------------------------------</option>
+                            <option>Sleeping Bed</option>
+                            <option>Box Game</option>
+                            <option>New Game</option>
+                            <option>Toy Family</option>
+                            <option>Cow Toy</option>
+                            <option>Jhinh jhing</option>
+
+                            <option disabled>--------------------------------------</option>
+                          
+                            <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Years old</option>
+                            <option disabled>--------------------------------------</option>
+                            <option>Kids train</option>
+                            <option>Home Vehicle</option>
+                            <option>Home Game</option>
+                            <option>Kids Carte</option>
+                            <option>Walker</option>
+                            <option>Home Blocks</option>
+
+                            <option disabled>--------------------------------------</option>
+                          
+                            <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 Years old</option>
+                            <option disabled>--------------------------------------</option>
+                            <option>Kids Train Big</option>
+                            <option>Hand Holder</option>
+                            <option>Hammer Game</option>
+                            <option>Soccer Game</option>
+                            <option>Home Alphabets</option>
+                            <option>Dog Home</option>
+
+                            <option disabled>--------------------------------------</option>
+                          
+                            <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 Years Old</option>
+                            <option disabled>--------------------------------------</option>
+                            <option>Jumping Pade</option>
+                            <option>Automatic Car</option>
+                            <option>Small Vehicles</option>
+                            <option>Titanic Ship</option>
+                            <option>Charging Bike</option>
+                            <option>Blocks</option>
+
+                            <option disabled>--------------------------------------</option>
+                          
+                            <option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 Years old</option>
+                            <option disabled>--------------------------------------</option>
+                            <option>Sand Truck</option>
+                            <option>Big Rebort</option>
+                            <option>Bicycle</option>
+                            <option>Batmen Car</option>
+                            <option>Small Bicycle</option>
+                            <option>Cultivation Truck</option>
+                        
+                                
+                    	</select>
+                     </label>
+                </div>
+				<br><br>
+            	<div id="image-one" class="compare-image-one"></div>
+            	
+           	  <div id="image-two" class="compare-image-two"></div>
+            </div>
+          <table>
+            	  <tr bgcolor="#FFFFFF">
+            	    <td width="40%">&nbsp;</td>
+            	    <td width="30%" class="cp-one" id="p_1">Product1</td>
+            	    <td width="30%" class="cp-two" id="p_2">Product2</td>
+          	    </tr>
+            	  <tr>
+            	    <td>&nbsp;Price</td>
+            	    <td class="acenter one1" id="price_1">&nbsp;</td>
+            	    <td class="acenter two2" id="price_2">&nbsp;</td>
+          	    </tr>
+            	  <tr bgcolor="#FFFFFF">
+            	    <td>&nbsp;Availability</td>
+            	    <td class="acenter one1" id="ton_1">&nbsp;</td>
+            	    <td class="acenter two2" id="ton_2">&nbsp;</td>
+          	    </tr>
+            	  <tr>
+            	    <td>&nbsp;Weight</td>
+            	    <td class="acenter one1" id="cooling_1">&nbsp;</td>
+            	    <td class="acenter two2" id="cooling_2">&nbsp;</td>
+          	    </tr>
+            	  <tr  bgcolor="#FFFFFF">
+            	    <td>&nbsp;Brands</td>
+            	    <td class="acenter one1" id="heating_1" style="color:#337ab7;">&nbsp;</td>
+            	    <td class="acenter two2" id="heating_2" style="color:#337ab7;">&nbsp;</td>
+          	    </tr>
+            	 
+            	 
+          	  </table>
+        </section>
+    </div>
+		
+<div class="row" style="margin-top:10%;">
+  <div class="col-sm-3"><center><img src="icons/7.png">
+  <h6 style="margin-top:10%;"><strong>PRODUCT LIST</strong></h6>
+  <p style="color:#626262;">We provide the best quality of products to you. We are always here to.</p>
+  </center>
+  </div>
+  <div class="col-sm-3"><center><img src="icons/8.png">
+  <h6 style="margin-top:10%;"><strong>HOME DELIVERY</strong></h6>
+  <p style="color:#626262;">We provide the best quality of products to you. We are always here to.</p>
+  </center>
+  </div>
+  <div class="col-sm-3"><center><img src="icons/9.png">
+  <h6 style="margin-top:10%;"><strong>EASY SHOPPING</strong></h6>
+  <p style="color:#626262;">We provide the best quality of products to you. We are always here to.</p>
+  </center>
+  </div>
+  <div class="col-sm-3"><center><img src="icons/10.png">
+  <h6 style="margin-top:10%;"><strong>PRODUCT CATALOG</strong></h6>
+  <p style="color:#626262;">We provide the best quality of products to you. We are always here to.</p>
+  </center>
+  </div>
+</div>
+</div>
+<div id="section3">
+  <div class="fttxt">
+    <div class="row" style="margin-top:3%">
+      <div class="col-sm-4">
+        <p class="shipping" align="left"><img src="icons/4.png">Free Shipping<br>
+          <span style="color:white; margin-left:14.8%;">INTERNATIONAL</span> </p>
+      </div>
+      <div class="col-sm-4">
+        <p class="shipping"><img src="icons/6.png">24 HOURS<br>
+          <span style="color:white; font-size:18px; margin-left:14.5%;">Helpline:</span> <span style="color:white">123 456</span> </p>
+      </div>
+      <div class="col-sm-4">
+        <p class="shipping" align="center"><img src="icons/5.png">SEE OUR<br>
+        </p>
+        <p align="center" style="color:white; margin-left:14%;">LATEST OFFERS<br>
+        </p>
+    </div>
+    </div>
+    <div class="line"></div>
+    <div class="row" style="margin-top:1.5%">
+      <div class="col-sm-3">
+        <h4 style="color:white;">ABOUT Us</h4>
+        <p style="color:white;"> We provide the best Quality of products to you.We are always here to help our lovely customers. </p>
+      </div>
+      <div class="col-sm-3">
+        <h4 style="color:white;">INFORMATION</h4>
+        <ul class="inform">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="allproducts.html">Products</a></li>
+         
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h4 style="color:white;">TOP BRANDS</h4>
+        <ul class="inform">
+          <li><a href="hotwheels.html">Hot Wheels</a></li>
+          <li><a href="teddyherman.html">Teddy Herman</a></li>
+          <li><a href="mattel.html">Mattel</a></li>
+         
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h4 style="color:white;">SUBSCRIBE TO OUR LATEST NEWS</h4>
+        <input type="email" placeholder="Enter Your Email" class="subscribe">
+    <input type="submit" placeholder="Enter Your Email" class="subsbtn">
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+<div id="footer2">
+<span style="color:white;padding:10px;">&copy 2018 Toyo Toys All Rights Reserved.</span>
+<div class="ftnav">
+<ul>
+ <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+         
+          
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>
